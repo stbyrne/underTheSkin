@@ -1,0 +1,37 @@
+<ion-view hide-nav-bar="true">
+        <ion-slide-box show-pager="false" on-slide-changed="nextSlide()">
+            <ion-slide ng-repeat="page in pages" active="true" scrollbar-y="false" id="{{page.class}}">
+                    <ion-content>
+                        
+                        <div class="cover" ng-if="page.type == 'cover'">
+                            <div class="cover-issue">
+                                <p>Issue {{page.issue}}</p>
+                            </div>
+                            <div class="cover-title">
+                                <p>{{page.title}}</p>
+                            </div>
+                            <div class="cover-preview">
+                                <h2 class="preview" ng-bind-html="page.preview">{{page.preview}}</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="article" ng-if="page.type == 'article'" ng-controller="MagArticleCtrl" ng-model="articles" ng-init="num = page.index">
+                            <div class="key">
+                                <p>{{articles[num].index}}</p>
+                                <p>{{articles[num].artist}}</p>
+                            </div>
+                            <div class="article-content">
+                                <h1 class="heading">{{articles[num].title}}</h1>
+                                <h2 class="heading">{{articles[num].intro}}</h2>
+                                <p ng-bind-html="articles[num].text">{{articles[num].text}}</p>
+                                <div class="article-video">
+                                    <iframe  ng-src="{{videos[num]}}" width="768" height="432" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </ion-content>
+            </ion-slide>
+        </ion-slide-box>
+</ion-view>
+

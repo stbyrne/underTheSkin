@@ -1,0 +1,88 @@
+[
+    {
+        "page": 1,
+        "id": "cover",
+        "issue": 1,
+        "class": "cover",
+        "type": "cover",
+        "title": "Under the Skin",
+        "preview": "Wes Hoolahan speaks about gtowing up in Dublins inner city and his future. <br>St Pats start Chris Forrester on life at Richmond Park. <br>Fionnuala Britton gives us an insight into her tough training regime and more...",
+        "controller": "CoverCtrl"
+    },
+    {
+        "page": 2,
+        "id": "ad1",
+        "class": "ad1",
+        "img": "img/ads/ad.1.png",
+        "type": "ad"
+    },
+    {
+        "page": 3,
+        "index": 0,
+        "type": "article",
+        "id": "weshoolahan",
+        "artist": "Wes Hoolahan",
+        "class": "page2"
+    },
+    {
+        "page": 4,
+        "id": "ad2",
+        "class": "ad2",
+        "img": "img/ads/ad.2.png",
+        "type": "ad"
+    },
+    {
+        "page": 5,
+        "index": 1,
+        "type": "article",
+        "id": "chrisforrester",
+        "artist": "Chris Forrester",
+        "class": "page3"
+    },
+    {
+        "page": 6,
+        "id": "ad3",
+        "class": "ad3",
+        "img": "img/ads/ad.3.png",
+        "type": "ad"
+    },
+    {
+        "page": 7,
+        "index": 2,
+        "type": "article",
+        "id": "fionnualabritton",
+        "artist": "Fionnuala Britton",
+        "class": "page4"
+    },
+    {
+        "page": 8,
+        "id": "ad4",
+        "class": "ad4",
+        "img": "img/ads/ad.4.png",
+        "type": "ad"
+    },
+    {
+        "page": 9,
+        "index": 3,
+        "type": "article",
+        "id": "katietaylor",
+        "artist": "Katie Taylor",
+        "class": "page5"
+    },
+    {
+        "page": 10,
+        "id": "ad5",
+        "class": "ad5",
+        "img": "img/ads/ad.5.png",
+        "type": "ad"
+    },
+    {
+        "page": 11,
+        "index": 4,
+        "type": "article",
+        "id": "rorymcilroy",
+        "artist": "Rory Mcilroy",
+        "class": "page6"
+    }
+    
+]
