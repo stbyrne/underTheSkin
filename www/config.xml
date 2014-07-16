@@ -22,6 +22,7 @@
     <gap:platform name="winphone" />
     
     <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.statusbar" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
 	

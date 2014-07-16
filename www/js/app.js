@@ -12,6 +12,7 @@ angular.module('magazine', ['ionic', 'magazine.controllers', 'magServices'])
     if(window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
+        Splashscreen.hide();
     }
   });
 })
