@@ -8,11 +8,14 @@
 angular.module('magazine', ['ionic', 'magazine.controllers', 'magServices'])
 
 .run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
+  $ionicPlatform.ready(function($timeout) {
     if(window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
-    }
+    };
+      $timeout(function(){
+          navigator.splashscreen.hide();
+      }, 4000);
   });
 })
 
