@@ -1,45 +1,45 @@
 #cover{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/pages/backdrop/cover_1401.png');
+    background-image: url('../img/pages/backdrop/cover_1401.png');
     background-size: cover;
 }
 #page2{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/pages/backdrop/backdrop_1.png');
+    background-image: url('../img/pages/backdrop/backdrop_1.png');
     background-size: cover;
 }
 #page3{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/pages/backdrop/backdrop_2.png');
+    background-image: url('../img/pages/backdrop/backdrop_2.png');
     background-size: cover;
 }
 #page4{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/pages/backdrop/backdrop_3.png');
+    background-image: url('../img/pages/backdrop/backdrop_3.png');
     background-size: cover;
 }
 #page5{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/pages/backdrop/backdrop_4.png');
+    background-image: url('../img/pages/backdrop/backdrop_4.png');
     background-size: cover;
 }
 #page6{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/pages/backdrop/backdrop_5.png');
+    background-image: url('../img/pages/backdrop/backdrop_5.png');
     background-size: cover;
 }
 #ad1{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/ads/ad.1.png');
+    background-image: url('../img/ads/ad.1.png');
     background-size: cover;
 }
 #ad2{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/ads/ad.2.png');
+    background-image: url('../img/ads/ad.2.png');
     background-size: cover;
 }
 #ad3{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/ads/ad.3.png');
+    background-image: url('../img/ads/ad.3.png');
     background-size: cover;
 }
 #ad4{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/ads/ad.4.png');
+    background-image: url('../img/ads/ad.4.png');
     background-size: cover;
 }
 #ad5{
-    background-image: url('http://www.stuartbyrne.com/angular/mag/www/img/ads/ad.5.png');
+    background-image: url('../img/ads/ad.5.png');
     background-size: cover;
 }
 .slider{
@@ -86,7 +86,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .article {
     padding-top: 930px;
-    
 }
 .article-content {
     /*background: -webkit-linear-gradient(top, rgba(255, 255, 255, .2) 1%, rgb(255, 255, 255) 20%);*/
@@ -147,4 +146,85 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 div.article-video {
     padding-top: 40px;
+}
+
+/* --- When display width is 400px or less, for iPhone 5 --- */
+
+@media only screen and (max-width: 400px){
+    
+    .article {
+        padding-top: 520px;
+    }
+    
+    .key p:nth-child(1){
+        font-size: 1em;
+    }
+    .key p:nth-child(2){
+        font-size: 1em;
+    }
+        
+    .article-content h1 {
+        font-weight: 300;
+        height: 30px;
+        font-size: 30px;
+    }
+    .article-content h2 {
+        height: auto;
+        font-size: 20px;
+        
+    }
+    .article p{
+        font-size: 1.2em;
+        margin: 20px 10px auto;
+    }
+/* --- Image control --- */
+    #cover{
+    background-image: url('../img/pages/backdrop/cover_1401.small.png');
+    background-size: cover;
+    }
+    #page2{
+        background-image: url('../img/pages/backdrop/backdrop_1.small.png');
+        background-size: cover;
+    }
+    #page3{
+        background-image: url('../img/pages/backdrop/backdrop_2.small.png');
+        background-size: cover;
+    }
+    #page4{
+        background-image: url('../img/pages/backdrop/backdrop_3.small.png');
+        background-size: cover;
+    }
+    #page5{
+        background-image: url('../img/pages/backdrop/backdrop_4.small.png');
+        background-size: cover;
+    }
+    #page6{
+        background-image: url('../img/pages/backdrop/backdrop_5.small.png');
+        background-size: cover;
+    }
+    #ad1{
+        background-image: url('../img/ads/ad.1.small.png');
+        background-size: cover;
+    }
+    #ad2{
+        background-image: url('../img/ads/ad.2.small.png');
+        background-size: cover;
+    }
+    #ad3{
+        background-image: url('../img/ads/ad.3.small.png');
+        background-size: cover;
+    }
+    #ad4{
+        background-image: url('../img/ads/ad.4.small.png');
+        background-size: cover;
+    }
+    #ad5{
+        background-image: url('../img/ads/ad.5.small.png');
+        background-size: cover;
+    }
+    .article img{
+        width: 340px;
+        margin: 20px -20px;
+    }
+    
 }

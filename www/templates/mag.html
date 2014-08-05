@@ -3,7 +3,7 @@
             <ion-slide ng-repeat="page in pages" active="true" scrollbar-y="false" id="{{page.class}}">
                     <ion-content>
                         
-                        <div class="cover" ng-if="page.type == 'cover'">
+                        <!--<div class="cover" ng-if="page.type == 'cover'">
                             <div class="cover-issue">
                                 <p>Issue {{page.issue}}</p>
                             </div>
@@ -13,7 +13,7 @@
                             <div class="cover-preview">
                                 <h2 class="preview" ng-bind-html="page.preview">{{page.preview}}</h2>
                             </div>
-                        </div>
+                        </div>-->
                         
                         <div class="article" ng-if="page.type == 'article'" ng-controller="MagArticleCtrl" ng-model="articles" ng-init="num = page.index">
                             <div class="key">

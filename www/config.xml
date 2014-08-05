@@ -16,14 +16,14 @@
     <author href="http://stuartbyrne.com" email="strtbyrne@gmail.com">
         Stuart Byrne
     </author>
-    <content src="index.html" />
+    <!--<content src="index.html" />-->
     <gap:platform name="ios" />
     <!--<gap:platform name="android" />
     <gap:platform name="winphone" />-->
     
-    <!--<gap:plugin name="org.apache.cordova.splashscreen" />
+    <!--<gap:plugin name="org.apache.cordova.splashscreen" />-->
     <gap:plugin name="com.phonegap.plugin.statusbar" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />-->
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
 	
 	<preference name="permissions"                value="none"/>
 
