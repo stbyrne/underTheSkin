@@ -25,9 +25,10 @@ angular.module('magazine.controllers', [])
             angular.forEach($scope.articles, function(article){
                 
                $scope.videos.push($sce.trustAsResourceUrl(article.video + "?title=0&amp;byline=0&amp;portrait=0&amp;color=ffb40d"));
+                console.log(article.video);
             });
             
-            console.log($scope.videos);
+           
             /*$scope.articleVideo = $sce.trustAsResourceUrl($scope.articles[num].video + atrributes);*/
         })
         

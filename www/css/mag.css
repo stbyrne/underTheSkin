@@ -147,6 +147,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 div.article-video {
     padding-top: 40px;
 }
+div.article-video iframe{
+    width: 768px;
+    height: 432px;
+}
+
 
 /* --- When display width is 400px or less, for iPhone 5 --- */
 
@@ -214,6 +219,16 @@ div.article-video {
     .article img{
         width: 340px;
         margin: 20px -20px;
+    }
+/*--- Video Control ---*/
+
+    /*.player .video-wrapper .video{
+        width: 320px;   
+    }*/
+        
+    div.article-video iframe{
+        width: 320px;
+        height: 180px;
     }
     
 }
