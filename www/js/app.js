@@ -9,10 +9,10 @@ angular.module('magazine', ['ionic', 'magazine.controllers', 'magServices'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
-        /*navigator.splashscreen.hide();*/ 
     if(window.StatusBar) {
       // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
+      /*StatusBar.styleDefault();*/
+        StatusBar.hide();
     }
   });
 })
