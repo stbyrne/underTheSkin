@@ -15,7 +15,7 @@ angular.module('magazine.controllers', [])
 
 .controller('MagArticleCtrl', ['$scope', '$http', '$sce',
     function($scope, $http, $sce) {
-        $http.get('content/articles.json').success(function(data) {
+        $http.get('https://googledrive.com/host/0B0778NZ3pAKKc0dTblBwOVVfRVk/articles.json').success(function(data) {
             $scope.articles = data;
             console.log($scope.articles);
             $scope.videos = [];
