@@ -160,9 +160,9 @@ div.article-video iframe{
     .article {
         padding-top: 520px;
     }
-    
     .key p:nth-child(1){
-        font-size: 1em;
+        margin-top: 20px;
+        font-size: 1.6em;
     }
     .key p:nth-child(2){
         font-size: 1em;
