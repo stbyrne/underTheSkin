@@ -47,7 +47,7 @@
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 400;
-    font-family: roboto, helvetica neue, arial, sans-serif;
+    font-family: lato, roboto, helvetica neue, arial, sans-serif;
     line-height: 1.2;
 }
 .cover-issue{
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #fff;
 }
 .article-content h1 {
-    font-family: roboto, helvetica neue, arial, sans-serif;
+    font-family: lato, roboto, helvetica neue, arial, sans-serif;
     font-weight: 300;
     height: 74px;
     font-size: 70px;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     
 }
 .article-content h2 {
-    font-family: roboto, helvetica neue, arial, sans-serif;
+    font-family: lato, roboto, helvetica neue, arial, sans-serif;
     font-weight: 300;
     font-style: italic;
     height: auto;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     
 }
 .article p{
-    font-family: roboto, helvetica neue, arial, sans-serif;
+    font-family: lato, roboto, helvetica neue, arial, sans-serif;
     font-size: 2em;
     font-weight: 300;
     margin: 20px 20px auto;
